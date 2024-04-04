@@ -30,3 +30,15 @@ ol {
 li {
     padding: 2px;
 }
+
+ol.calendar li:nth-child(7n-2),
+ol.calendar li:nth-child(7n-3) {
+    background-color: lightblue;
+}
+
+ol.calendar li:nth-child(4),
+ol.calendar li:nth-child(5) {
+    background-color: lightblue;
+}
+
+
